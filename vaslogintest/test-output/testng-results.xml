@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-09T21:23:02 IST" name="Default suite" finished-at="2020-03-09T21:23:47 IST" duration-ms="44836">
+    <groups>
+      <group name="Sanity">
+        <method signature="usertest.t2()[pri:20, instance:mavenprac.vaslogintest.usertest@14d3bc22]" name="t2" class="mavenprac.vaslogintest.usertest"/>
+        <method signature="usertest.t3()[pri:30, instance:mavenprac.vaslogintest.usertest@14d3bc22]" name="t3" class="mavenprac.vaslogintest.usertest"/>
+      </group> <!-- Sanity -->
+      <group name="sanity">
+        <method signature="usertest.t1()[pri:10, instance:mavenprac.vaslogintest.usertest@14d3bc22]" name="t1" class="mavenprac.vaslogintest.usertest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2020-03-09T21:23:02 IST" name="Default test" finished-at="2020-03-09T21:23:47 IST" duration-ms="44836">
+      <class name="mavenprac.vaslogintest.usertest">
+        <test-method is-config="true" signature="bf1()[pri:0, instance:mavenprac.vaslogintest.usertest@14d3bc22]" started-at="2020-03-09T21:23:02 IST" name="bf1" finished-at="2020-03-09T21:23:13 IST" duration-ms="10895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bf1 -->
+        <test-method signature="t1()[pri:10, instance:mavenprac.vaslogintest.usertest@14d3bc22]" started-at="2020-03-09T21:23:13 IST" name="t1" finished-at="2020-03-09T21:23:42 IST" duration-ms="29321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method signature="t2()[pri:20, instance:mavenprac.vaslogintest.usertest@14d3bc22]" started-at="2020-03-09T21:23:42 IST" name="t2" finished-at="2020-03-09T21:23:46 IST" depends-on-methods="mavenprac.vaslogintest.usertest.t1" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method signature="t3()[pri:30, instance:mavenprac.vaslogintest.usertest@14d3bc22]" started-at="2020-03-09T21:23:46 IST" name="t3" finished-at="2020-03-09T21:23:46 IST" depends-on-methods="mavenprac.vaslogintest.usertest.t2" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+        <test-method is-config="true" signature="af1()[pri:0, instance:mavenprac.vaslogintest.usertest@14d3bc22]" started-at="2020-03-09T21:23:46 IST" name="af1" finished-at="2020-03-09T21:23:47 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af1 -->
+      </class> <!-- mavenprac.vaslogintest.usertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
