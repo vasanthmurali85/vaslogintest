@@ -39,5 +39,11 @@ public class Commands {
 	return s1;
 	
 	}
+	
+	public boolean isselectedcheck(By locator)
+	{
+		boolean sel1 = driver.findElement(locator).isSelected();
+		return sel1;
+	}
 
 }
